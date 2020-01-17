@@ -1,0 +1,245 @@
+[
+    {
+        "category_name": "Image Tracking",
+        "samples": [
+            {
+                "name": "Scene Recognition and redirect",
+                "path": "01_ImageTracking_3_Interactivity/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            },
+            {
+                "name": "Weather Details",
+                "path": "01_ImageTracking_4_HtmlDrawable/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Obtain Distance",
+        "samples": [
+
+            {
+                "name": "Distance To Target",
+                "path": "02_AdvancedImageTracking_2_DistanceToTarget/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Multiple Targets",
+        "samples": [
+            {
+                "name": "Multiple Targets",
+                "path": "03_MultipleTargets_1_MultipleTargets/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Cloud Recognition",
+        "samples": [
+
+            {
+                "name": "Target Through Cloud",
+                "path": "04_CloudRecognition_2_ContinuousImageRecognition/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Get Target",
+        "samples": [
+
+            {
+                "required_extensions": [
+                    "save_load_instant_target"
+                ],
+                "name": "Save Instant Target",
+                "path": "05_InstantTracking_5_SaveInstantTarget/index.html",
+                "requiredFeatures": [
+                    "instant_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Voice augmentation",
+        "samples": [
+
+            {
+                "name": "2D Image and Sound Augmentations",
+                "path": "06_ObjectTracking_2_2dImageAndSoundAugmentations/index.html",
+                "requiredFeatures": [
+                    "object_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "3D Model",
+        "samples": [
+
+            {
+                "name": "3d Model At Geo Location",
+                "path": "07_3dModels_6_3dModelAtGeoLocation/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Point of Interest",
+        "samples": [
+
+            {
+                "name": "Navigation path",
+                "path": "08_PointOfInterest_3_MultiplePois/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            },
+            {
+                "name": "Selecting coordinates",
+                "path": "08_PointOfInterest_4_SelectingPois/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+
+    {
+        "category_name": "Browsing POIS",
+        "samples": [
+            {
+                "name": "Presenting Details",
+                "path": "10_BrowsingPois_1_PresentingDetails/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            },
+
+            {
+                "required_extensions": [
+                    "native_detail",
+                    "screenshot",
+                    "geo"
+                ],
+                "name": "Capture Screen",
+                "path": "10_BrowsingPois_6_Bonus-CaptureScreen/index.html",
+                "requiredFeatures": [
+                    "geo",
+                    "photo_library_screenshot_import"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+    {
+        "category_name": "Video",
+        "samples": [
+
+            {
+                "name": "Video Augmentation",
+                "path": "11_Video_4_Bonus-TransparentVideo/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    },
+
+    {
+        "category_name": "API's",
+        "samples": [
+            {
+                "required_extensions": [
+                    "qr_code"
+                ],
+                "name": "QR & Barcode",
+                "path": "13_PluginsAPI_1_QR&Barcode/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back"
+                }
+            },
+            {
+                "required_extensions": [
+                    "face_detection"
+                ],
+                "name": "Face Detection",
+                "path": "13_PluginsAPI_2_FaceDetection/index.html",
+                "requiredFeatures": [
+                    "image_tracking"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back"
+                }
+            }
+
+        ]
+    }
+
+]
